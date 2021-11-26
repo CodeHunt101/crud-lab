@@ -48,7 +48,6 @@ describe('RestaurantInput', () => {
 
 describe('Restaurants Component', () => {
   it('displays a list of restaurant components', () => {
-
     const store = createStore(manageRestaurant)
     store.dispatch({type: 'ADD_RESTAURANT', text: "Muzarella"})
     store.dispatch({type: 'ADD_RESTAURANT', text: "Artichoke"})
